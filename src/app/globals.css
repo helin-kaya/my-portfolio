@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-white text-zinc-900 antialiased;
+}
+
+/* Varsayılan linkleri underline yapma */
+a {
+  @apply no-underline;
+}
