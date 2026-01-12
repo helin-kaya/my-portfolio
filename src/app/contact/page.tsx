@@ -47,6 +47,7 @@ export default function ContactPage() {
 
         <div>
           <span className="text-zinc-300 w-24 inline-block">GitHub</span>
+          
           <a className="underline underline-offset-4" href={resume.github} target="_blank" rel="noreferrer">
             {resume.github.replace("https://", "")}
           </a>
