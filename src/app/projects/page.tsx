@@ -22,7 +22,7 @@ export default function HomePage() {
           {resume.objective}
         </p>
 
-        <div className="flex flex-wrap gap-3">
+        {/* <div className="flex flex-wrap gap-3">
           <Link
             href="/contact"
             className="rounded-xl bg-white px-4 py-2 text-sm font-semibold text-zinc-900 hover:opacity-90"
@@ -36,7 +36,7 @@ export default function HomePage() {
           >
             View Projects
           </Link>
-        </div>
+        </div> */}
 
         <div className="flex flex-wrap gap-2 pt-1">
           {[".NET", "Microservices", "REST APIs", "EF Core", "React"].map((t) => (
